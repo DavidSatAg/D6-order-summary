@@ -22,6 +22,7 @@ body {
   flex-direction: column;
   gap: 5%;
   justify-content: space-around;
+  box-shadow: 0px 28px 35px -4px rgb(190 190 252);
 }
 
 .imagem {
@@ -49,6 +50,7 @@ body {
   margin: auto;
   padding: 15px 0;
   border-radius: 12px;
+  box-shadow: 0 7px 15px 1px rgb(157, 157, 225);
 }
 
 .icone,
