@@ -149,4 +149,10 @@ h1 {
   .texto {
     font-size: 20px;
   }
+
+  .container {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
 }
