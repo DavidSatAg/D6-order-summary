@@ -26,7 +26,7 @@ body {
 }
 
 .imagem {
-  background-image: url(./images/illustration-hero.svg);
+  background-image: url(../images/illustration-hero.svg);
   height: 47vw;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -151,7 +151,7 @@ h1 {
   }
 
   .container {
-    background-image: url(images/pattern-background-desktop.svg);
+    background-image: url(../images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
