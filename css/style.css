@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  background-color: #dee6fd;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo {
+  width: 80%;
+  background-color: white;
+  height: 80%;
+  border-radius: 20px;
+}
+.imagem {
+  background-image: url(/images/illustration-hero.svg);
+  height: 50vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+}
