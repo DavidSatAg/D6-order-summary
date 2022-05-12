@@ -17,11 +17,107 @@ body {
   background-color: white;
   height: 80%;
   border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  justify-content: space-around;
 }
+
 .imagem {
   background-image: url(/images/illustration-hero.svg);
-  height: 50vw;
+  height: 47vw;
   background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
+}
+
+.bloco {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f8f9fe;
+  width: 85%;
+  margin: auto;
+  border-radius: 12px;
+  padding: 10px 0;
+}
+
+.pagamento {
+  background-color: #485ee1;
+  width: 85%;
+  margin: auto;
+  padding: 15px 0;
+  border-radius: 12px;
+}
+
+.icone,
+.plano_anual,
+.change {
+  display: inline-block;
+}
+
+h1,
+p,
+.pagamento,
+.cancelamento,
+.change {
+  font-family: "Outfit", sans-serif;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.preco {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+.texto {
+  line-height: 1.5rem;
+}
+
+.cancelamento {
+  padding: 10px 0 30px 0;
+  font-weight: 700;
+}
+
+.plano_anual {
+  width: 100%;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+
+.annual_plan: {
+  font-size: 10px;
+  width: 100%;
+}
+
+.preco,
+.texto,
+.cancelamento {
+  color: gray;
+}
+
+.pagamento {
+  color: white;
+  font-weight: 700;
+}
+
+.change:hover {
+  text-decoration: underline;
+  color: purple;
+  font-weight: 700;
+}
+
+.pagamento:hover {
+  background-color: purple;
+}
+
+.icone {
+  padding-left: 10px;
 }
